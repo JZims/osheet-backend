@@ -1,0 +1,14 @@
+POST http://localhost:3001/chirps
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkhmSTlsVTFCaWw2ZWZtZ1hnT0xiMiJ9.eyJpc3MiOiJodHRwczovL2Rldi1wNXRzZGZ2ZC51cy5hdXRoMC5jb20vIiwic3ViIjoieWpHcmZsM3paS3lKbzluaUt4YUJ3RnNlRTlwM3V4bnpAY2xpZW50cyIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzAwMSIsImlhdCI6MTYzNjMxNzgxOSwiZXhwIjoxNjM2NDA0MjE5LCJhenAiOiJ5akdyZmwzelpLeUpvOW5pS3hhQndGc2VFOXAzdXhueiIsImd0eSI6ImNsaWVudC1jcmVkZW50aWFscyJ9.G5O_xMc5iuCaNFQxOeljgYZm93y4c6Z3q61KbgJUXdkWnBHJdUmeDOTOwC1WngJvY4MWiH1O34az710Ot4EpEfVpNwrnbAdTfz2LSQy39ejKqBbYMyiQVaL1kwviMYvELvReQC4S6RAZKDRQMDMa2pkyr3Jsc2S_SitiI-3zOX2JkzK_kroRAaLkT5uhK-enGI5Z-UmlBoUbd07fHPrmxqLK01irflbYimM8gzMOVOwilVfJR82Tub4rwXFBLwSr_7nmP7birge96-xGKViKWj8WhaaLldhPWu2ZimqPi2LMx2hSL6KQNQthNBt2RRh-8xsmSngvmxir6lhR2Ato0A
+
+{
+    "body": "This is my second chirp!", 
+    "published": true
+}
+###
+GET http://localhost:3001/chirps
+
+###
+
+GET http://localhost:3001/chirps/1

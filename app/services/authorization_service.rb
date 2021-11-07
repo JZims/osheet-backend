@@ -1,6 +1,6 @@
 class AuthorizationService
 
-    def initialize(headers = [])
+    def initialize(headers = {})
         @headers = headers
     end
 

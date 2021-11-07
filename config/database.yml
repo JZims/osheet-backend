@@ -11,7 +11,7 @@ development:
   database: osheet_backend_development
 
   
-  username: postgres
+  # username: postgres
 
   # The password associated with the postgres role (username).
   password: password
