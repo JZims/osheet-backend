@@ -8,7 +8,7 @@ end
 
 #Fetch requests require this header
 def auth_header
-request.headers['Authorization']
+    request.headers['Authorization']
 end
 
 # Checks for the second item in the array inside the field of 'token' in this header 
