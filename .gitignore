@@ -27,3 +27,6 @@
 /config/master.key
 
 /config/credentials/development.key
+
+/.env
+/requests.http
